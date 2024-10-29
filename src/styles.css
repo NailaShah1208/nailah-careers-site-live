@@ -1,0 +1,170 @@
+html{
+    font-size: 16px;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family:'Roboto',sans-serif;
+    line-height:1.3;
+    font-size: 1rem;
+}
+
+
+.job-table{
+
+    border:1px solid grey;
+    border-collapse: collapse;
+    width:100%;
+    text-align: center;
+
+}
+
+tr:nth-child(odd)
+{
+    background-color: aliceblue;
+}
+
+td{
+    
+    padding:16px 0;
+    border:1px solid grey;
+}
+
+th{
+    background-color: aliceblue;
+    padding:16px 0;
+    border:1px solid grey;
+    color:#475569
+}
+
+#navbar{
+    padding:8px;
+    margin:0;
+}
+
+#about{
+    display:flex;
+    padding:8px;
+    max-width:1300px;
+    margin:0 auto;
+}
+
+#description{
+    width:50%;   
+}
+
+#team{
+    width:50%;
+
+}
+
+#team-image{
+    border:3px solid rgb(20,20,20);
+    width:100%
+}
+#description-para{
+    margin-top:0;
+    font-size:1.25rem;
+}
+
+#jobs{
+    
+    padding:0 8px;
+    margin:0 auto;
+    max-width:1300px;
+}
+.apply{
+    float:right;
+    color:black;
+}
+
+a{
+    text-decoration: none;
+    color:#60A5FA;
+}
+a:hover, a:focus{
+    color:#0369A1
+}
+
+#application{
+    max-width:1300px;
+    margin:0 auto;
+    padding:4px
+}
+
+#application-form label{
+    font-weight:600;
+    
+}
+#application-form input ,select,textarea{
+    padding:4px;
+    font-size:1.25rem;
+    margin-top:2px;
+    border-radius:5px;
+    border:1px solid grey;
+
+}
+#application-form input[type="submit"]
+{
+    background-color:#498dfc;
+    padding:9px;
+    color:white;
+    font-weight:500;
+    max-width:130px;
+}
+#application-form input[type='checkbox']
+{
+width:18px;
+height:18px;
+
+}
+#application-form textarea{
+    width:80%;
+    font-family:'Roboto',sans-serif;
+}
+#application-form div{
+    margin-top:16px;
+}
+h1{
+    
+    text-align: center;
+}
+.job-role{
+    margin-bottom:4px;
+}
+#banner{
+    width:100%
+}
+.location{
+    color:gray
+}
+#logo{
+    height:34px;
+}
+h2{
+    text-align:center
+}
+
+#footer{
+    padding:16px 0;
+    margin-top:32px;
+    
+    background-color: rgb(238, 238, 254);
+}
+
+.footer-list{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.footer-list>li>a{
+    margin:0 8px;
+}
+#copyright{
+    text-align: center;
+    color:gray;
+    font-size:0.875rem;
+}
